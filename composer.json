@@ -8,8 +8,6 @@
     }
   ],
   "require": {
-    "php": "^5.5.9 || ^7.0",
-    "another-vendor/package": "1.*",
     "econea/nusoap": "v0.9.5.*"
   },
   "autoload": {
