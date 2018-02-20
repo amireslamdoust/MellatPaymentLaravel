@@ -1,0 +1,20 @@
+{
+  "name": "AmirEslamdoust/MellatPaymentLaravel",
+  "description": "Iran Mellat Bank Payment, Success and Fail System for banks return",
+  "authors": [
+    {
+      "name": "Amir Eslamdoust",
+      "email": "amireslamdoust@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^5.5.9 || ^7.0",
+    "another-vendor/package": "1.*",
+    "econea/nusoap": "v0.9.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "AmirEslamdoust\\MellatPaymentLaravel\\": "src"
+    }
+  }
+}
