@@ -1,5 +1,5 @@
 {
-  "name": "AmirEslamdoust/MellatPaymentLaravel",
+  "name": "amir-eslamdoust/mellat-payment-laravel",
   "description": "Iran Mellat Bank Payment, Success and Fail System for banks return",
   "authors": [
     {
@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "AmirEslamdoust\\MellatPaymentLaravel\\": "src"
+      "AmirEslamdoust\\BankMellatPaymentService\\": "src"
     }
   }
 }
