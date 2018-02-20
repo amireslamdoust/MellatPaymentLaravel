@@ -8,7 +8,6 @@
     }
   ],
   "require": {
-    "econea/nusoap": "v0.9.5.*"
   },
   "autoload": {
     "psr-4": {
