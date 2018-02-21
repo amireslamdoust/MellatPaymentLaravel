@@ -26,7 +26,6 @@ class BankMellatPayment
 
     public function __construct()
     {
-        $this->soapClient = new SoapClient(Config('BankMellatPayment.wsdl'));
         $this->config = Config('BankMellatPayment');
         $this->callBackURL = $this->config['callBackURL'];
     }
@@ -43,6 +42,8 @@ class BankMellatPayment
      */
     public function paymentRequest($amount, $orderId, $additionalData = '', $payerId = 0)
     {
+        $this->soapClient = new SoapClient(Config('BankMellatPayment.wsdl'));
+
         if($amount && $amount > 100 && $orderId ) {
             $parameters = [
                 'terminalId' => $this->config['terminalId'],
@@ -92,6 +93,7 @@ class BankMellatPayment
      */
     public function verifyPayment($orderId, $saleOrderId, $saleReferenceId)
     {
+        $this->soapClient = new SoapClient(Config('BankMellatPayment.wsdl'));
 
         if($orderId && $saleOrderId && $saleReferenceId) {
 

@@ -25,7 +25,6 @@
   "extra": {
     "laravel": {
       "providers": [
-        "AmirEslamdoust\\BankMellatPaymentService\\BankMellatPayment",
         "AmirEslamdoust\\BankMellatPaymentService\\BankMellatPaymentServiceProvider"
       ],
       "aliases": {
