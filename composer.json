@@ -21,5 +21,19 @@
     "psr-0": {
       "AmirEslamdoust\\BankMellatPaymentService\\": "src"
     }
+  },
+  "extra": {
+    "component": "package",
+    "branch-alias": {
+      "dev-master": "1.0.0"
+    },
+    "laravel": {
+      "providers": [
+        "AmirEslamdoust\\BankMellatPaymentService"
+      ],
+      "aliases": {
+        "BankMellat": "AmirEslamdoust\\BankMellatPaymentService\\SoapClient",
+      }
+    }
   }
 }
