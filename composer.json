@@ -1,10 +1,16 @@
 {
   "name": "amir-eslamdoust/mellat-payment-laravel",
+  "type": "library",
   "description": "Iran Mellat Bank Payment, Success and Fail System for banks return",
+  "keywords": ["mellat","bank"],
+  "homepage": "https://github.com/amireslamdoust/MellatPaymentLaravel",
+  "license": "MIT",
   "authors": [
     {
       "name": "Amir Eslamdoust",
-      "email": "amireslamdoust@gmail.com"
+      "email": "amireslamdoust@gmail.com",
+      "homepage": "http://eslamdoust.com",
+      "role": "Master"
     }
   ],
   "require": {
@@ -12,7 +18,7 @@
     "econea/nusoap": "v0.9.5.*"
   },
   "autoload": {
-    "psr-4": {
+    "psr-0": {
       "AmirEslamdoust\\BankMellatPaymentService\\": "src"
     }
   }
