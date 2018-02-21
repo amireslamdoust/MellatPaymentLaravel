@@ -8,7 +8,6 @@
     }
   ],
   "require": {
-    "php": "^5.5.9 || ^7.0",
     "illuminate/support" : "^5.2",
     "econea/nusoap": "v0.9.5.*"
   },
