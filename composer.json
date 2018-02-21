@@ -23,13 +23,12 @@
     }
   },
   "extra": {
-    "component": "package",
     "laravel": {
       "providers": [
         "AmirEslamdoust\\BankMellatPaymentService"
       ],
       "aliases": {
-        "BankMellat": "AmirEslamdoust\\BankMellatPaymentService\\SoapClient",
+        "BankMellat": "AmirEslamdoust\\BankMellatPaymentService\\SoapClient"
       }
     }
   }
